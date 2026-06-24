@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anisaty Ladies Salon — Demo Booking Website</title>
+  <meta name="description" content="A tailored demo website concept for Anisaty Ladies Salon." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav><strong>Anisaty Ladies Salon</strong><a href="https://www.instagram.com/anisatyladiessalon/" target="_blank">Instagram</a></nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">Demo concept • Sharjah</p>
+        <h1>A ladies salon website that turns Instagram views into bookings.</h1>
+        <p class="sub">A soft, premium demo page where clients can view services and request appointments without waiting for replies across comments and DMs.</p>
+        <div class="actions"><a class="btn" href="#book">Reserve an Appointment</a><a class="btn ghost" href="#services">See Services</a></div>
+      </div>
+      <div class="visual-card" aria-label="demo visual">
+        <div class="phone"><div class="notch"></div><div class="screen"><span>Ladies-only. Warm. Premium.</span><strong>Anisaty Ladies Salon</strong><em>Ladies salon</em></div></div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="section intro">
+      <p class="eyebrow">Why this page works</p>
+      <h2>Instagram gets attention. This page turns it into bookings.</h2>
+      <p>Salon pages win attention on Instagram, but bookings need a simple path. This demo gives clients a service menu, WhatsApp-ready form, and appointment flow.</p>
+    </section>
+    <section id="services" class="section">
+      <p class="eyebrow">Services</p>
+      <h2>Simple service menu built for fast decisions</h2>
+      <div class="cards"><article class="card"><h3>Hair Services</h3><p>Cuts, styling, color, treatments, and package options.</p></article>
+<article class="card"><h3>Nails &amp; Lashes</h3><p>Beauty add-ons presented in a simple booking-friendly layout.</p></article>
+<article class="card"><h3>Facials &amp; Self-Care</h3><p>A calm section for skincare, relaxing treatments, and premium services.</p></article></div>
+    </section>
+    <section class="section split">
+      <div><p class="eyebrow">Automation hook</p><h2>Follow-ups for every inquiry</h2><p>Every booking request can trigger a confirmation message, service reminder, and rebooking follow-up.</p></div>
+      <div class="steps"><div>1<span>Visitor chooses a service</span></div><div>2<span>They submit phone/WhatsApp</span></div><div>3<span>Auto reply + booking follow-up</span></div></div>
+    </section>
+    <section id="book" class="section booking">
+      <p class="eyebrow">Demo form</p>
+      <h2>Request a booking or quote</h2>
+      <form onsubmit="event.preventDefault(); document.querySelector('.thanks').classList.add('show')">
+        <input required placeholder="Your name" />
+        <input required placeholder="Phone / WhatsApp" />
+        <select required><option value="">Choose a service</option><option>Hair Services</option>
+<option>Nails &amp; Lashes</option>
+<option>Facials &amp; Self-Care</option></select>
+        <textarea placeholder="Preferred time or details"></textarea>
+        <button>Reserve an Appointment</button>
+      </form>
+      <p class="thanks">Demo: this is where WhatsApp/email automation would trigger.</p>
+    </section>
+  </main>
+  <footer><p>Unofficial outreach demo concept. Visuals are custom placeholders, not copied from Instagram.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
